@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GPU Thermal / Power Telemetry Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>GPU Fleet Telemetry</h1>
+    <span id="status-pill" class="pill">connecting…</span>
+  </header>
+
+  <section id="gpu-cards"></section>
+
+  <section id="alerts-panel">
+    <h2>Recent Alerts</h2>
+    <ul id="alerts-list"></ul>
+  </section>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
